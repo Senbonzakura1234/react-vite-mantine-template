@@ -1,0 +1,104 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"prettier",
+		"plugin:prettier/recommended",
+		"plugin:json/recommended",
+		"plugin:markdown/recommended",
+		"plugin:postcss-modules/recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended"
+	],
+	"ignorePatterns": ["**/node_modules", "**/.yarn", "LICENSE"],
+	"overrides": [
+		{
+			"files": ["**/*.md"],
+			"processor": "markdown/markdown"
+		}
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"arrowFunctions": true,
+			"jsx": true
+		},
+		"ecmaVersion": 2020,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "react-hooks", "@typescript-eslint", "prettier", "html", "postcss-modules", "markdown"],
+	"root": true,
+	"rules": {
+		"@typescript-eslint/no-empty-function": "warn",
+		"@typescript-eslint/no-var-requires": "warn",
+		"class-methods-use-this": "off",
+		"comma-dangle": "off",
+		"function-paren-newline": "off",
+		"import/extensions": "off",
+		"import/no-dynamic-require": "off",
+		"import/prefer-default-export": "off",
+		"no-duplicate-imports": "warn",
+		"no-empty": "warn",
+		"no-inner-declarations": "off",
+		"prefer-const": [
+			"error",
+			{
+				"destructuring": "any",
+				"ignoreReadBeforeAssign": false
+			}
+		],
+		"prettier/prettier": [
+			"warn",
+			{
+				"arrowParens": "avoid",
+				"bracketSameLine": false,
+				"bracketSpacing": true,
+				"endOfLine": "auto",
+				"jsxSingleQuote": true,
+				"printWidth": 120,
+				"semi": true,
+				"singleQuote": true,
+				"tabWidth": 3,
+				"trailingComma": "all",
+				"useTabs": true
+			}
+		],
+		"react-hooks/exhaustive-deps": "warn",
+		"react-hooks/rules-of-hooks": "error",
+		"react/react-in-jsx-scope": "off"
+	},
+	"settings": {
+		"import/parsers": {
+			"@typescript-eslint/parser": [".ts", ".tsx"]
+		},
+		"import/resolver": {
+			"alias": {
+				"extensions": [".js", ".jsx", ".ts", ".tsx"],
+				"map": [
+					["@App", "./src/App"],
+					["@assets", "./src/assets"],
+					["@components", "./src/components"],
+					["@context", "./src/context"],
+					["@data", "./src/data"],
+					["@hooks", "./src/hooks"],
+					["@style", "./src/scss"],
+					["@stories", "./src/stories"],
+					["@typescript", "./src/typescript"],
+					["@utils", "./src/utils"]
+				]
+			},
+			"typescript": {
+				"alwaysTryTypes": true,
+				"project": "./tsconfig.json"
+			}
+		},
+		"react": {
+			"version": "^18.2.0"
+		}
+	}
+}

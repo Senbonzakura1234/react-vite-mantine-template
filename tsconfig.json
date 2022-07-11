@@ -1,21 +1,48 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+	"compilerOptions": {
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"esModuleInterop": false,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"noEmit": true,
+		"paths": {
+			"@App": ["./src/App"],
+			"@App/*": ["./src/App/*"],
+			"@assets": ["./src/assets"],
+			"@assets/*": ["./src/assets/*"],
+			"@components": ["./src/components"],
+			"@components/*": ["./src/components/*"],
+			"@context": ["./src/context"],
+			"@context/*": ["./src/context/*"],
+			"@data": ["./src/data"],
+			"@data/*": ["./src/data/*"],
+			"@hooks": ["./src/hooks"],
+			"@hooks/*": ["./src/hooks/*"],
+			"@stories": ["./src/stories"],
+			"@stories/*": ["./src/stories/*"],
+			"@style": ["./src/scss"],
+			"@style/*": ["./src/scss/*"],
+			"@typescript": ["./src/typescript"],
+			"@typescript/*": ["./src/typescript/*"],
+			"@utils": ["./src/utils"],
+			"@utils/*": ["./src/utils/*"]
+		},
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "ESNext",
+		"useDefineForClassFields": true
+	},
+	"include": ["src", "storybook"],
+	"references": [
+		{
+			"path": "./tsconfig.node.json"
+		}
+	]
 }
