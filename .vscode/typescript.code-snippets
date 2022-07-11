@@ -1,0 +1,13 @@
+{
+	"Custom Hook": {
+		"prefix": "chk",
+		"body": ["export const ${1:${TM_FILENAME_BASE}} = () => {\n\t/* ${1:${TM_FILENAME_BASE}} hook */\n};\n"],
+		"description": "Create Custom Hook"
+	},
+	// in development
+	"Reducer Slice": {
+		"prefix": "rxsl",
+		"body": "import { createSlice } from '@reduxjs/toolkit';\nimport { ReducerSlicesEnum, ThemeState } from '@typescript';\n\nconst initialState: ThemeState = {\n};\n\nexport const {\n\treducer: themeReducer,\n\tactions: {},\n} = createSlice({\n\tname: ReducerSlicesEnum.THEME,\n\tinitialState,\n\treducers: {},\n});\n",
+		"description": "Create Reducer Slice"
+	}
+}

@@ -44,6 +44,7 @@
 		"import/prefer-default-export": "off",
 		"no-duplicate-imports": "warn",
 		"no-empty": "warn",
+		"no-empty-pattern": "warn",
 		"no-inner-declarations": "off",
 		"prefer-const": [
 			"error",
