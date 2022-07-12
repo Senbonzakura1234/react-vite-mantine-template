@@ -14,14 +14,6 @@
  yarn preview
 ```
 
-```bash
- yarn storybook
-```
-
-```bash
- yarn build-storybook
-```
-
 ## Git remote config
 
 \*\* For git remote config please run these commands below in the order:
