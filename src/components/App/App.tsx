@@ -1,4 +1,4 @@
-import AppRouter from '../Router';
+import AppRouter from './Router';
 import { FC } from 'react';
 import ReloadPrompt from './ReloadPrompt';
 
