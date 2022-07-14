@@ -1,13 +1,13 @@
+import AppProvider from '@components/Provider';
 import ReloadPrompt from '@components/ReloadPrompt';
-import { FC } from 'react';
-
+import { CFC } from '@typescript/interfaces/others';
 import AppRouter from './Router';
 
-export const App: FC = () => {
+export const App: CFC = () => {
 	return (
-		<>
+		<AppProvider>
 			<ReloadPrompt />
 			<AppRouter />
-		</>
+		</AppProvider>
 	);
 };

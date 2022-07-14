@@ -1,8 +1,8 @@
-import { ThemeActionsEnum } from '@typescript/enums/actions';
+import { SpanActionsEnum } from '@typescript/enums/actions';
 
-import { ThemeAction } from './action';
-import { ThemeState } from './states';
+import { SpanAction } from './action';
+import { SpanState } from './states';
 
-export type ThemeReducerMapping = {
-	[key in ThemeActionsEnum]: (state: ThemeState, actions: ThemeAction) => void;
+export type SpanReducerMapping = {
+	[key in SpanActionsEnum]: (state: SpanState, actions: SpanAction) => void;
 };

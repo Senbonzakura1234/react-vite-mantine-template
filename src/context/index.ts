@@ -1,9 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-
-import { themeReducer } from './reducers/theme.reducer';
+import { spanReducer } from './reducers/span.reducer';
 
 export const rootContext = configureStore({
 	reducer: {
-		theme: themeReducer,
+		span: spanReducer,
 	},
 });

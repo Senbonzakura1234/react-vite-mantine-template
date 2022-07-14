@@ -1,3 +1,5 @@
-export interface SpanProps {
-	prop: unknown;
+import { ReactNode } from 'react';
+
+export interface CommonProps {
+	children?: ReactNode;
 }

@@ -1,8 +1,8 @@
 import Home from '@pages/Home';
-import { FC } from 'react';
+import { CFC } from '@typescript/interfaces/others';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-export const Router: FC = () => {
+export const Router: CFC = () => {
 	return (
 		<BrowserRouter>
 			<Routes>

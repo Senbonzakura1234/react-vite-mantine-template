@@ -1,8 +1,20 @@
 {
 	"cSpell.diagnosticLevel": "Hint",
 	"cSpell.ignorePaths": ["**/node_modules/**", "**/.yarn/**"],
-	"cSpell.words": ["clsx", "downcase", "dropzone", "mantine", "reduxjs", "rxsl", "Senbonzakura", "upcase"],
-	"editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+	"cSpell.words": [
+		"clsx",
+		"downcase",
+		"dropzone",
+		"mantine",
+		"reduxjs",
+		"rxsl",
+		"Senbonzakura",
+		"upcase",
+		"Greycliff"
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
 	"editor.formatOnSave": true,
 	"editor.rulers": [120],
 	"editor.tabSize": 3,
@@ -11,8 +23,13 @@
 	"eslint.lintTask.enable": true,
 	"eslint.packageManager": "yarn",
 	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "json", "markdown"],
-	"files.associations": { "*.json": "json" },
+	"files.associations": {
+		"*.eslintrc": "json",
+		"*.json": "json",
+		"*.prettierrc": "json"
+	},
 	"markdownlint.ignore": ["LICENSE"],
 	"prettier.useTabs": true,
-	"typescript.tsdk": "node_modules\\typescript\\lib"
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"typescriptHero.imports.organizeOnSave": true
 }

@@ -1,9 +1,9 @@
 import './ReloadPrompt.css';
 
-import { FC } from 'react';
 import { useRegisterSW } from 'virtual:pwa-register/react';
+import { CFC } from '@typescript/interfaces/others';
 
-export const ReloadPrompt: FC = () => {
+export const ReloadPrompt: CFC = () => {
 	const {
 		offlineReady: [offlineReady, setOfflineReady],
 		needRefresh: [needRefresh, setNeedRefresh],

@@ -2,7 +2,12 @@
 	"Custom Function Component": {
 		"prefix": "cfc",
 		"body": [
-			"import { FC } from 'react';\n\nexport const ${1:${TM_FILENAME_BASE}}: FC = () => {\n\treturn <div>${1:${TM_FILENAME_BASE}}</div>;\n};\n"
+			"import { CFC } from '@typescript/interfaces/others';",
+			"",
+			"export const ${1:${TM_FILENAME_BASE}}: CFC = () => {",
+			"\treturn <div>${1:${TM_FILENAME_BASE}}</div>;",
+			"};",
+			""
 		],
 		"description": "Create Custom React Function Component"
 	}

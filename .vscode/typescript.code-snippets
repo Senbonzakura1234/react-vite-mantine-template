@@ -16,6 +16,7 @@
 			"",
 			"export const {",
 			"\treducer: ${TM_FILENAME/(.*?)\\..+/${1:/downcase}/}Reducer,",
+			"\t// eslint-disable-next-line no-empty-pattern",
 			"\tactions: {},",
 			"} = createSlice<${TM_FILENAME/(.*?)\\..+/${1:/capitalize}/}State, ${TM_FILENAME/(.*?)\\..+/${1:/capitalize}/}ReducerMapping, ReducerSlicesEnum>({",
 			"\tname: ReducerSlicesEnum.${TM_FILENAME/(.*?)\\..+/${1:/upcase}/},",

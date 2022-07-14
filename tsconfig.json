@@ -39,7 +39,7 @@
 		"target": "ESNext",
 		"useDefineForClassFields": true
 	},
-	"include": ["src", "storybook"],
+	"include": ["src"],
 	"references": [
 		{
 			"path": "./tsconfig.node.json"

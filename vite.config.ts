@@ -32,7 +32,7 @@ export default defineConfig({
 			'@pages': getAbsolutePath('./src/pages/'),
 			'@stories': getAbsolutePath('./src/stories/'),
 			'@style': getAbsolutePath('./src/scss/'),
-			'@typescript': getAbsolutePath('.src/typescript/'),
+			'@typescript': getAbsolutePath('./src/typescript/'),
 			'@utils': getAbsolutePath('./src/utils/'),
 		},
 	},
