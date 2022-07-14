@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import tsconfigPaths from 'vite-tsconfig-paths';
+import ReactPlugin from '@vitejs/plugin-react';
+import { VitePWA as PWAPlugin } from 'vite-plugin-pwa';
+import TSConfig from 'vite-tsconfig-paths';
 import * as path from 'path';
 
 const getAbsolutePath = (pathName: string): string => path.resolve(__dirname, pathName);
@@ -8,7 +9,18 @@ const getAbsolutePath = (pathName: string): string => path.resolve(__dirname, pa
 // https://vitejs.dev/config/
 export default defineConfig({
 	logLevel: 'info',
-	plugins: [react(), tsconfigPaths({ projects: [getAbsolutePath('tsconfig.json')] })],
+	plugins: [
+		ReactPlugin(),
+		TSConfig({ projects: [getAbsolutePath('tsconfig.json')] }),
+		PWAPlugin({
+			registerType: 'autoUpdate',
+			injectRegister: 'auto',
+			workbox: {
+				globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+				cleanupOutdatedCaches: true,
+			},
+		}),
+	],
 	server: { open: '/' },
 	resolve: {
 		alias: {
