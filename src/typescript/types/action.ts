@@ -1,4 +1,4 @@
 import { PayloadAction } from '@reduxjs/toolkit';
-import { ThemeEnum } from '@typescript';
+import { ThemeNameEnum } from '@typescript/enums/others';
 
-export type ThemeAction = PayloadAction<ThemeEnum>;
+export type ThemeAction = PayloadAction<ThemeNameEnum>;

@@ -1,0 +1,16 @@
+{
+	"recommendations": [
+		"formulahendry.auto-rename-tag",
+		"streetsidesoftware.code-spell-checker",
+		"dsznajder.es7-react-js-snippets",
+		"dbaeumer.vscode-eslint",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"ecmel.vscode-html-css",
+		"davidanson.vscode-markdownlint",
+		"silvenon.mdx",
+		"esbenp.prettier-vscode",
+		"meganrogge.template-string-converter",
+		"shardulm94.trailing-spaces"
+	]
+}

@@ -1,19 +1,14 @@
+import { themeReducerMapping } from '@data/mappings';
 import { createSlice } from '@reduxjs/toolkit';
-import { ReducerSlicesEnum, ThemeAction, ThemeActionsEnum, ThemeEnum, ThemeState } from '@typescript';
-
-const initialState: ThemeState = {
-	currentTheme: ThemeEnum.LIGHT_THEME,
-};
+import { ReducerSlicesEnum, ThemeNameEnum } from '@typescript/enums/others';
+import { ThemeReducerMapping } from '@typescript/types/mappings';
+import { ThemeState } from '@typescript/types/states';
 
 export const {
 	reducer: themeReducer,
 	actions: { SET_THEME },
-} = createSlice({
+} = createSlice<ThemeState, ThemeReducerMapping, ReducerSlicesEnum>({
 	name: ReducerSlicesEnum.THEME,
-	initialState,
-	reducers: {
-		[ThemeActionsEnum.SET_THEME]: (state, { payload }: ThemeAction) => {
-			state.currentTheme = payload;
-		},
-	},
+	initialState: { currentTheme: ThemeNameEnum.LIGHT_THEME },
+	reducers: themeReducerMapping,
 });

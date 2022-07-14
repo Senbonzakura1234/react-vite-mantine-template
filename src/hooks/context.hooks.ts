@@ -1,4 +1,4 @@
-import { RootContextState, RootContextDispatch } from '@typescript';
+import { RootContextState, RootContextDispatch } from '@typescript/types/others';
 import { useSelector, useDispatch } from 'react-redux';
 
 export const useContextSelector = useSelector<RootContextState>;

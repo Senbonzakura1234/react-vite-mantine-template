@@ -81,12 +81,12 @@
 			"alias": {
 				"extensions": [".js", ".jsx", ".ts", ".tsx"],
 				"map": [
-					["@App", "./src/App"],
 					["@assets", "./src/assets"],
 					["@components", "./src/components"],
 					["@context", "./src/context"],
 					["@data", "./src/data"],
 					["@hooks", "./src/hooks"],
+					["@pages", "./src/pages"],
 					["@style", "./src/scss"],
 					["@stories", "./src/stories"],
 					["@typescript", "./src/typescript"],

@@ -1,5 +1,5 @@
-import { ThemeEnum } from '@typescript';
+import { ThemeNameEnum } from '@typescript/enums/others';
 
 export type ThemeState = {
-	currentTheme: ThemeEnum;
+	currentTheme: ThemeNameEnum;
 };

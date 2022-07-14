@@ -12,12 +12,12 @@ export default defineConfig({
 	server: { open: '/' },
 	resolve: {
 		alias: {
-			'@App': getAbsolutePath('./src/App/'),
 			'@assets': getAbsolutePath('./src/assets/'),
 			'@components': getAbsolutePath('./src/components/'),
 			'@context': getAbsolutePath('./src/context/'),
 			'@data': getAbsolutePath('./src/data/'),
 			'@hooks': getAbsolutePath('./src/hooks/'),
+			'@pages': getAbsolutePath('./src/pages/'),
 			'@stories': getAbsolutePath('./src/stories/'),
 			'@style': getAbsolutePath('./src/scss/'),
 			'@typescript': getAbsolutePath('.src/typescript/'),
