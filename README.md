@@ -1,4 +1,4 @@
-# [My Portfolio](https://github.com/Senbonzakura1234/Senbonzakura1234-Portfolio.git) - [ReactJs](https://reactjs.org/) Application
+# [My Portfolio](https://github.com/Senbonzakura1234/react-vite-mantine-template.git) - [ReactJs](https://reactjs.org/) Application
 
 ## Scripts
 
@@ -22,11 +22,11 @@
 
 ```bash
 
-git remote add origin git@github.com:Senbonzakura1234/Senbonzakura1234-Portfolio.git
+git remote add origin git@github.com:Senbonzakura1234/react-vite-mantine-template.git
 
-git remote set-url --add --push origin git@gitlab.com:Senbonzakura1234/Senbonzakura1234-Portfolio.git
+git remote set-url --add --push origin git@gitlab.com:Senbonzakura1234/react-vite-mantine-template.git
 
-git remote set-url --add --push origin git@github.com:Senbonzakura1234/Senbonzakura1234-Portfolio.git
+git remote set-url --add --push origin git@github.com:Senbonzakura1234/react-vite-mantine-template.git
 
 git remote -v
 
@@ -36,11 +36,11 @@ git remote -v
 
 ```bash
 
-git remote add origin https://github.com/Senbonzakura1234/Senbonzakura1234-Portfolio.git
+git remote add origin https://github.com/Senbonzakura1234/react-vite-mantine-template.git
 
-git remote set-url --add --push origin https://gitlab.com/Senbonzakura1234/Senbonzakura1234-Portfolio.git
+git remote set-url --add --push origin https://gitlab.com/Senbonzakura1234/react-vite-mantine-template.git
 
-git remote set-url --add --push origin https://github.com/Senbonzakura1234/Senbonzakura1234-Portfolio.git
+git remote set-url --add --push origin https://github.com/Senbonzakura1234/react-vite-mantine-template.git
 
 git remote -v
 

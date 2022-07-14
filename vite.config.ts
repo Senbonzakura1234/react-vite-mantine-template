@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite';
 import ReactPlugin from '@vitejs/plugin-react';
+import * as path from 'path';
+import { defineConfig } from 'vite';
 import { VitePWA as PWAPlugin } from 'vite-plugin-pwa';
 import TSConfig from 'vite-tsconfig-paths';
-import * as path from 'path';
 
 const getAbsolutePath = (pathName: string): string => path.resolve(__dirname, pathName);
 

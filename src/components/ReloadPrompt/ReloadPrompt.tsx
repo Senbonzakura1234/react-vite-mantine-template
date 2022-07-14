@@ -1,7 +1,7 @@
+import './ReloadPrompt.css';
+
 import { FC } from 'react';
 import { useRegisterSW } from 'virtual:pwa-register/react';
-// eslint-disable-next-line postcss-modules/no-unused-class
-import './ReloadPrompt.css';
 
 export const ReloadPrompt: FC = () => {
 	const {

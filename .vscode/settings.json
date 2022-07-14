@@ -1,17 +1,7 @@
 {
 	"cSpell.diagnosticLevel": "Hint",
 	"cSpell.ignorePaths": ["**/node_modules/**", "**/.yarn/**"],
-	"cSpell.words": [
-		"clsx",
-		"downcase",
-		"dropzone",
-		"formulahendry",
-		"mantine",
-		"reduxjs",
-		"rxsl",
-		"Senbonzakura",
-		"upcase"
-	],
+	"cSpell.words": ["clsx", "downcase", "dropzone", "mantine", "reduxjs", "rxsl", "Senbonzakura", "upcase"],
 	"editor.codeActionsOnSave": { "source.fixAll.eslint": true },
 	"editor.formatOnSave": true,
 	"editor.rulers": [120],

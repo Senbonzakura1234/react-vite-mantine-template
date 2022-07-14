@@ -46,6 +46,7 @@
 		"no-empty": "warn",
 		"no-empty-pattern": "warn",
 		"no-inner-declarations": "off",
+		"postcss-modules/no-unused-class": "off",
 		"prefer-const": [
 			"error",
 			{

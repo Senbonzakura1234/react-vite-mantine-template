@@ -1,16 +1,17 @@
 {
 	"recommendations": [
-		"formulahendry.auto-rename-tag",
-		"streetsidesoftware.code-spell-checker",
-		"dsznajder.es7-react-js-snippets",
+		"davidanson.vscode-markdownlint",
 		"dbaeumer.vscode-eslint",
 		"donjayamanne.githistory",
+		"dsznajder.es7-react-js-snippets",
 		"eamodio.gitlens",
 		"ecmel.vscode-html-css",
-		"davidanson.vscode-markdownlint",
-		"silvenon.mdx",
 		"esbenp.prettier-vscode",
+		"formulahendry.auto-rename-tag",
 		"meganrogge.template-string-converter",
-		"shardulm94.trailing-spaces"
+		"shardulm94.trailing-spaces",
+		"silvenon.mdx",
+		"streetsidesoftware.code-spell-checker",
+		"rbbit.typescript-hero"
 	]
 }
