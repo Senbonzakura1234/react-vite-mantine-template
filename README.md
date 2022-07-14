@@ -1,4 +1,8 @@
-# [My Portfolio](https://github.com/Senbonzakura1234/react-vite-mantine-template.git) - [ReactJs](https://reactjs.org/) Application
+# [React Vite Mantine Template](https://github.com/Senbonzakura1234/react-vite-mantine-template.git)
+
+[ReactJs](https://reactjs.org/)
+[Vite](https://vitejs.dev/)
+[Mantine](https://mantine.dev/)
 
 ## Scripts
 
